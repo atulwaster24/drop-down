@@ -1,0 +1,60 @@
+.dropdown{
+    position: relative;
+    left: 40%;
+    top: 30%;
+}
+
+
+.btnActive, .option{
+    border: 2px solid blue;
+    background-color: white;
+    color: black;
+    width: 12rem;
+    height: 4vh;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    font-weight:700;
+    padding: 0 0.5rem;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border 0.2s ease-in-out;
+
+}
+
+.option{
+    border: 2px solid gray;
+    background-color: white;
+    color: gray;
+    width: 11.8rem;
+    height: 4vh;
+    border-radius: 3px;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border 0.2s ease-in-out;
+}
+
+.icon{
+    position: relative;
+    top: 0.2rem
+}
+
+.btnActive:hover, .option:hover{
+    color: black;
+    background-color: gainsboro;
+    border: 2px solid purple;
+}
+
+.optionsInactive{
+    visibility: hidden;
+    transition: display 0.3s ease-in-out;
+}
+
+.optionsActive{
+    width: 13.2rem;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    align-items: center;
+    border-radius: 2px;
+    padding: 0.1rem 0;
+}
